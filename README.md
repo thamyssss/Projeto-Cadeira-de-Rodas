@@ -1,7 +1,7 @@
 # Projeto-Cadeira-de-Rodas
 Projeto de cadeira de rodas motorizada controlada por sinais de EOG e EEG
 
-    Cadeiras de rodas manuais são a solução de locomoção mais comum para as pessoas
+Cadeiras de rodas manuais são a solução de locomoção mais comum para as pessoas
 com deficiência motora muscular. Entretanto, pessoas que sofrem de doenças motoras
 graves como paraplegia e distrofia muscular são incapazes de se locomover de forma
 independente utilizando cadeira de rodas manuais uma vez que a funcionalidade das
@@ -12,7 +12,7 @@ soluções tecnológicas que sejam capazes de ler os sinais cerebrais EEG
 promover bem-estar para pessoas com deficiência motoras graves são cada vez mais
 necessárias. 
 
-    Este trabalho propõe o uso dos sinais elétricos de EEG e de EOG como
+Este trabalho propõe o uso dos sinais elétricos de EEG e de EOG como
 solução capaz de permitir o controle de uma cadeira de rodas motorizada que possa ser
 utilizada por pessoas com deficiência motora grave. Neste trabalho são utilizados um
 aparelho de headset da EMOTIV Epoc de 14 sensores para medir os sinais EEG e EOG do
