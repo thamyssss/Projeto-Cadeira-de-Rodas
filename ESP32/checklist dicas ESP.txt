@@ -1,0 +1,13 @@
+Caso o código não compile de jeito nenhum pra ESP, tente:
+
+a) Drivers instalados? (da Espressif)
+b) Porta serial seleccionada (aquela opção "Porta" ali)
+c) Apertar o botão de BOOT do ESP enquanto carrega o arquivo pra placa (na hora que aparecer "Connecting...")
+d) Tenta tirar ela do certo do circuito e compilar ela "separada"
+
+Outra recomendação (mais pra frente) nosso projeto é de economia de bateria, então, se você quiser, você pode usar a função "setCpuFrequencyMhz(numero)" para fazer ela reduzir o clock do seu processador. 
+
+A ESP tem o clock ajustável de 80, 160 e 240. Se vc desligar o Wi-Fi, ele é ajustável para 40, 20 e 10.
+Fazer isso pode ter ganhos significativos no que tange a economia de bateria da placa, e, se não usar muito o processador, vale a pena reduzir o clock dele mesmo.
+
+Pra desligar o Wi-Fi é WiFi.setSleep(true);

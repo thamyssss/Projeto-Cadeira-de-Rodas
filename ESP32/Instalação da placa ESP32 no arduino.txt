@@ -1,0 +1,25 @@
+Para instalar a placa ESP32 na IDE do arduino, siga os seguintes passos:
+
+- Abra o Arduino
+- Clique em Arquivo
+- Clique em Preferências
+
+Após isso, você verá abrir uma nova caixa. No espaço “URLs Adicionais para Gerenciadores de Placas”, cole este link: https://dl.espressif.com/dl/package_esp32_index.json
+
+É preciso garantir que o programa irá reconhecer a URL, portanto, feche o Arduino e abra outra vez.
+
+Em seguida, clique nos seguintes locais:
+
+- Ferramentas
+- Placas
+- Gerenciador de Placas
+
+Em seguida, na caixa de buscas, procure por ESP32. Escolha a versão mais nova e clique em instalar. Espere o processo terminar por completo, portanto, não feche a janela antes. 
+Você verá que já aparece uma nova guia nas placas, a guia ESP32 Arduino.
+
+Por fim, entre em:
+
+- Ferramentas
+- Placas
+
+Sendo assim, na guia ESP32, selecione a “DOIT ESP32 DEVKIT V1”. Outra configuração para prestar atenção é a escolha correta da porta conectada a ESP.
