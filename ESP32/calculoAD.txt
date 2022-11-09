@@ -1,0 +1,30 @@
+O valor analógico em função do valor digital é dado pela seguinte fórmula:
+
+Valor analógico = Tensão de alimentação * Valor digital / (2^bits – 1)
+
+Sendo a tensão de alimentação = 5V
+	valor digital = 255/2 = 127 (pois precisa de 2,5V em cada pino para a cadeira manter-se parada)
+
+Valor analógico = 5 * 127 / (2^8 – 1)
+Valor analógico = 635 / 255 = 2,5V
+
+Valor analógico mínimo = Tensão de alimentação * 1/(2^bits – 1)
+Valor analógico mínimo = 5 * 1/255 = 0.0196V
+
+MOVIMENTOS:
+
+FRENTE
+	2,5 + 1,36 = 3,86
+	3,86 / 0,019 = 200
+
+TRÁS
+	2,5 - 1,36 = 1,14
+	1,14 / 0,019 = 60
+
+ESQUERDA
+	2,5 + 1,36 = 3,86
+	3,86 / 0,019 = 200
+
+DIREITA
+	2,5 - 1,36 = 1,14
+	1,14 / 0,019 = 60
